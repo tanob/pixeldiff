@@ -1,0 +1,10 @@
+#!/bin/bash -xeu
+# PID_FILE=/tmp/appium.pid
+LOG=/tmp/appium.server.log
+
+appium $@ > $LOG 2>&1 &
+
+sleep 5
+tail $LOG
+
+exit 0

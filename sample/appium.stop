@@ -1,0 +1,5 @@
+#!/bin/bash -xeu
+
+pkill -f io.appium.android.bootstrap.Bootstrap || true
+pkill -f bin/appium || true
+exit 0
