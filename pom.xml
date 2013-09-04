@@ -29,7 +29,19 @@
       <tag>HEAD</tag>
   </scm>
 
-    <developers />
+    <developers>
+        <developer>
+            <id>tanob</id>
+            <name>Adriano Bonat</name>
+            <email>adrianob@gmail.com</email>
+            <url>http://tanob.github.com</url>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>-3</timezone>
+        </developer>
+    </developers>
 
     <modules>
         <module>sample</module>
